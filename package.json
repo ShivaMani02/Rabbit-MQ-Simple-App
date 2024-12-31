@@ -1,0 +1,16 @@
+{
+  "name": "rabbit-mq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runConsumer": "node consumer.js && node taskWorker.js",
+    "runProducer": "node publisher.js && node taskProducer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.5"
+  }
+}
